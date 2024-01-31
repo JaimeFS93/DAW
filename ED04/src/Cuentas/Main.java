@@ -25,8 +25,6 @@ public class Main {
     }
 
     
-    
-    
 	private static double extracted(CCuenta cuenta1, float cantidad) {
 		double saldoActual;
 		saldoActual = cuenta1.estado();
