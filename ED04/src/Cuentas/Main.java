@@ -6,6 +6,7 @@ public class Main {
         CCuenta cuenta1;
         double saldoActual;
 
+        
         cuenta1 = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
         saldoActual = extracted(cuenta1, 500);
         System.out.println("El saldo actual es"+ saldoActual );
@@ -23,6 +24,9 @@ public class Main {
         }
     }
 
+    
+    
+    
 	private static double extracted(CCuenta cuenta1, float cantidad) {
 		double saldoActual;
 		saldoActual = cuenta1.estado();
